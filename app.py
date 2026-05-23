@@ -11,3 +11,7 @@ st.header("Laporan Bulanan")
 st.subheader("📈 Monthly Expenses")
 st.caption("Made with ❤️ using Streamlit")
 
+if st.button("Say hello"):
+    st.write("Why hello there")
+else:
+    st.write("Goodbye")
